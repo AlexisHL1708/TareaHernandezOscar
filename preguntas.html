@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="acciones.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Preguntas</title>
+</head>
+
+<body>
+    <nav id="menuPrincipal">
+        <h1>
+            <a class="opcionMenuPrincipal" href="index.html">El ambiente</a>
+        </h1>
+    </nav>
+    <br><br><br><br>
+    <section class="contenido">
+        <label id="pregunta1">Que opinas de la contaminación?</label>
+        <select id="opcionPregunta1">
+            <option value="Es complicado">Es complicado</option>
+            <option value="Vamos mejorando">Vamos mejorando</option>
+            <option value="Me es indiferente">Me es indiferente</option>
+        </select>
+        <br>
+
+        <label id="pregunta2">Cuidas el ambiente?</label>
+        <select id="opcionPregunta2">
+            <option value="Si">Si</option>
+            <option value="No">No</option>
+            <option value="Me es indiferente">Me es indiferente</option>
+        </select>
+        <br>
+
+        <label id="pregunta3">Debe haber leyes para quienes contaminen?</label>
+        <select id="opcionPregunta3">
+            <option value="Si">Si</option>
+            <option value="No">No</option>
+            <option value="Tal vez">Tal vez</option>
+        </select>
+        <br>
+
+        <label id="pregunta4">Que piensas de las nuevas tecnologías biodegradables?</label>
+        <select id="opcionPregunta4">
+            <option value="Es un avance">Es un avance</option>
+            <option value="Estoy en contra">Estoy en contra</option>
+            <option value="No conozco de ello">No conozco de ello</option>
+        </select>
+        <br>
+
+        <label id="pregunta5">El ambiente es importante?</label>
+        <select id="opcionPregunta5">
+            <option value="Si">Si</option>
+            <option value="No">No</option>
+            <option value="Tal vez">Tal vez</option>
+        </select>
+        <br>
+
+        <button onclick="resultadosPregunta()">Mostrar Respuestas</button>
+
+        <br>
+        <p id="resultado"></p>
+
+    </section>
+</body>
+
+</html>

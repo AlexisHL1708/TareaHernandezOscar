@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 16px;
+}
+
+
+#menuPrincipal{
+	background-color: rgba(68, 19, 100, 0.76);
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 1;
+}
+.opcionMenuPrincipal{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 50px;
+	cursor: pointer;
+	position: relative;
+	font-size: 1.5rem;
+}
+   .opcionMenuPrincipal:hover{
+	background-color: rgba(208, 102, 235, 0.4);
+   }
+.contenido{
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	min-width: 320px;
+}
